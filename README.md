@@ -8,10 +8,8 @@ readpath uses POSIX readdir to read the contents of the directory instead of usi
 
 ## Installation
 
-Clone the repository to a local folder and run
-
 ```
-$ npm install
+$ npm install readpath
 ```
 
 ## Read directory Asych

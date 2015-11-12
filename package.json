@@ -1,6 +1,6 @@
 {
   "name": "readpath",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "fs.readdir alternative that calls a callback per entry instead of returning an array with all entries",
   "keywords": [
     "readdir",
