@@ -5,6 +5,9 @@
  #define _READPATH_H_
 
 #include <string>
+#include <sys/types.h>
+#include <dirent.h>
+#include <errno.h>
 
 using namespace std;
 

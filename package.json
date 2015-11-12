@@ -10,6 +10,13 @@
     "folder",
     "files"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oferh/node-readpath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oferh/node-readpath/issues"
+  },
   "license": "Apache-2.0",
   "author": "Ofer Herman",
   "main": "index.js",

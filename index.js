@@ -1,2 +1,2 @@
-var readpath = require('bindings')('readpath');
+var readpath = require('bindings')('readpath.node');
 module.exports = readpath;

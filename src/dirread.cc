@@ -10,4 +10,4 @@ NAN_MODULE_INIT(InitAll) {
     Nan::GetFunction(Nan::New<FunctionTemplate>(readAsynch)).ToLocalChecked());
 }
 
-NODE_MODULE(dirread, InitAll)
+NODE_MODULE(readpath, InitAll)
