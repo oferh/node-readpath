@@ -1,4 +1,4 @@
-# Node readpath: Read the contents of a directory using callbacks
+# Node readpath
 
 fs.readdir alternative that calls a callback per entry instead of returning an array with all entries.
 

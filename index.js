@@ -1,2 +1,2 @@
-var dirread = require('bindings')('dirread');
-module.exports = dirread;
+var readpath = require('bindings')('readpath');
+module.exports = readpath;
