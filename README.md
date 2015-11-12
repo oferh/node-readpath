@@ -6,16 +6,25 @@ readpath uses POSIX readdir to read the contents of the directory instead of usi
 
 ## Installation
 
-To compile the extension for the first time, run
+Clone the repository to a local folder and run
 
 ```
-$ npm install readpath
+$ npm install
 ```
 
 ## Read directory Asych
 
-After building:
 
-```
-some code here
+```node
+var readpath = require('../');
+
+readpath.read('my-path',
+  function(entry) {
+    console.log(entry);
+  },
+  function(err) {
+    console.log("Error: " + err);
+  }
+);
+
 ```
